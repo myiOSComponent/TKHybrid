@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TKHybrid_Example' do
+  pod 'TKHybrid', :path => '../'
+
+  target 'TKHybrid_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
