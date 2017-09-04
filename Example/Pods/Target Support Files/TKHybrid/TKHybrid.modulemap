@@ -1,0 +1,6 @@
+framework module TKHybrid {
+  umbrella header "TKHybrid-umbrella.h"
+
+  export *
+  module * { export * }
+}

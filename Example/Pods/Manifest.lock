@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - TKHybrid (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - TKHybrid (from `../`)
+
+EXTERNAL SOURCES:
+  TKHybrid:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TKHybrid: 1c7731bf5e7e997bcc30101eb84a0b50c523ab2a
+
+PODFILE CHECKSUM: 41967e205c47c5a5c625aa733a1be91825a04c6c
+
+COCOAPODS: 1.3.1

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0508FE555A97FC324B76D3 /* Pods_TKHybrid_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209D829CB9D820E50E0C782A /* Pods_TKHybrid_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7A6ACB2AA843E40566C83849 /* Pods_TKHybrid_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ABE67AC8CFFE470A5A9F9A /* Pods_TKHybrid_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E6FF3731CA75720165166A07 /* Pods_TKHybrid_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB11BFD0CD30CF30C28B1D8 /* Pods_TKHybrid_Example.framework */; };
+		F7AEAC676F9C3D4B705592E5 /* Pods_TKHybrid_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B835AF354CE5F1233FF48 /* Pods_TKHybrid_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		209D829CB9D820E50E0C782A /* Pods_TKHybrid_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHybrid_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31519E7CEE25419ED7241394 /* TKHybrid.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKHybrid.podspec; path = ../TKHybrid.podspec; sourceTree = "<group>"; };
-		45B5445E691EECF33AE2C533 /* Pods-TKHybrid_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		094C4F959B0B302636508CDA /* TKHybrid.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKHybrid.podspec; path = ../TKHybrid.podspec; sourceTree = "<group>"; };
+		3C8B39EB5BB724CDC42F62B5 /* Pods-TKHybrid_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF5F1B7236AD894AEE89DC3 /* Pods-TKHybrid_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F41029240E7F7C9FFA1BBC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TKHybrid_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKHybrid_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		60D92C7267D514568000B61B /* Pods-TKHybrid_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example.release.xcconfig"; sourceTree = "<group>"; };
+		69ABE67AC8CFFE470A5A9F9A /* Pods_TKHybrid_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHybrid_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B958B85901FB282F1E60FA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7E4AABBCB4F9885EB90E138F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7E62775732F32967D4FB216D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAE0FBE400A61A3B588BEF72 /* Pods-TKHybrid_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DA54E960B21451B373E8DCC8 /* Pods-TKHybrid_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9733F2E89EAC57739AB4FFF /* Pods-TKHybrid_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB11BFD0CD30CF30C28B1D8 /* Pods_TKHybrid_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHybrid_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF975E043EEC2534B7EF2C6 /* Pods-TKHybrid_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKHybrid_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C6B835AF354CE5F1233FF48 /* Pods_TKHybrid_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKHybrid_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E6FF3731CA75720165166A07 /* Pods_TKHybrid_Example.framework in Frameworks */,
+				7A6ACB2AA843E40566C83849 /* Pods_TKHybrid_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,24 +88,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1B0508FE555A97FC324B76D3 /* Pods_TKHybrid_Tests.framework in Frameworks */,
+				F7AEAC676F9C3D4B705592E5 /* Pods_TKHybrid_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20F4D4252003F026052BD50F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E9733F2E89EAC57739AB4FFF /* Pods-TKHybrid_Example.debug.xcconfig */,
-				AAE0FBE400A61A3B588BEF72 /* Pods-TKHybrid_Example.release.xcconfig */,
-				45B5445E691EECF33AE2C533 /* Pods-TKHybrid_Tests.debug.xcconfig */,
-				DA54E960B21451B373E8DCC8 /* Pods-TKHybrid_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				20F4D4252003F026052BD50F /* Pods */,
+				E7F427AE797FF8170731B3F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FBB11BFD0CD30CF30C28B1D8 /* Pods_TKHybrid_Example.framework */,
-				209D829CB9D820E50E0C782A /* Pods_TKHybrid_Tests.framework */,
+				69ABE67AC8CFFE470A5A9F9A /* Pods_TKHybrid_Example.framework */,
+				8C6B835AF354CE5F1233FF48 /* Pods_TKHybrid_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,11 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				31519E7CEE25419ED7241394 /* TKHybrid.podspec */,
-				7E4AABBCB4F9885EB90E138F /* README.md */,
-				7B958B85901FB282F1E60FA3 /* LICENSE */,
+				094C4F959B0B302636508CDA /* TKHybrid.podspec */,
+				5F41029240E7F7C9FFA1BBC1 /* README.md */,
+				7E62775732F32967D4FB216D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E7F427AE797FF8170731B3F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF5F1B7236AD894AEE89DC3 /* Pods-TKHybrid_Example.debug.xcconfig */,
+				60D92C7267D514568000B61B /* Pods-TKHybrid_Example.release.xcconfig */,
+				3C8B39EB5BB724CDC42F62B5 /* Pods-TKHybrid_Tests.debug.xcconfig */,
+				8BF975E043EEC2534B7EF2C6 /* Pods-TKHybrid_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TKHybrid_Example" */;
 			buildPhases = (
-				B341A6D008EAF1829E63E12B /* [CP] Check Pods Manifest.lock */,
+				8C46FE1C62A5CD65A830C655 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2A264EF87526B58636237CE7 /* [CP] Embed Pods Frameworks */,
-				F8759C69F7EBF8B0726CED48 /* [CP] Copy Pods Resources */,
+				1750CD46F7C95DE93404895B /* [CP] Embed Pods Frameworks */,
+				2F7F2E89CB5B4CFF99ECE2A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TKHybrid_Tests" */;
 			buildPhases = (
-				6074114876499DBC24348AC5 /* [CP] Check Pods Manifest.lock */,
+				CC51F1C8252084C893F2C85C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D685511C52FBF8FCB2337AAE /* [CP] Embed Pods Frameworks */,
-				64159E7B1617D463F5EBC7C2 /* [CP] Copy Pods Resources */,
+				BA84082DD793327CB4DAEF0D /* [CP] Embed Pods Frameworks */,
+				DC1CD5ABA9AA86BB5B1BCAA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,7 +297,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A264EF87526B58636237CE7 /* [CP] Embed Pods Frameworks */ = {
+		1750CD46F7C95DE93404895B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,25 +315,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6074114876499DBC24348AC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TKHybrid_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64159E7B1617D463F5EBC7C2 /* [CP] Copy Pods Resources */ = {
+		2F7F2E89CB5B4CFF99ECE2A7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,10 +327,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B341A6D008EAF1829E63E12B /* [CP] Check Pods Manifest.lock */ = {
+		8C46FE1C62A5CD65A830C655 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +348,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D685511C52FBF8FCB2337AAE /* [CP] Embed Pods Frameworks */ = {
+		BA84082DD793327CB4DAEF0D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,7 +368,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F8759C69F7EBF8B0726CED48 /* [CP] Copy Pods Resources */ = {
+		CC51F1C8252084C893F2C85C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TKHybrid_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1CD5ABA9AA86BB5B1BCAA7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,7 +398,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Example/Pods-TKHybrid_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKHybrid_Tests/Pods-TKHybrid_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,7 +535,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9733F2E89EAC57739AB4FFF /* Pods-TKHybrid_Example.debug.xcconfig */;
+			baseConfigurationReference = 3CF5F1B7236AD894AEE89DC3 /* Pods-TKHybrid_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -550,7 +550,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAE0FBE400A61A3B588BEF72 /* Pods-TKHybrid_Example.release.xcconfig */;
+			baseConfigurationReference = 60D92C7267D514568000B61B /* Pods-TKHybrid_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -565,7 +565,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45B5445E691EECF33AE2C533 /* Pods-TKHybrid_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3C8B39EB5BB724CDC42F62B5 /* Pods-TKHybrid_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -589,7 +589,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA54E960B21451B373E8DCC8 /* Pods-TKHybrid_Tests.release.xcconfig */;
+			baseConfigurationReference = 8BF975E043EEC2534B7EF2C6 /* Pods-TKHybrid_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
